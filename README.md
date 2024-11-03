@@ -7,7 +7,17 @@ More details about the findings and solutions can be found under the correspondi
 1. Case Study 1: Predicting Lifetime Value (LTV) for JustPlay Users - [pltv](https://github.com/aapiskotin/just_play_case/tree/main/pltv)
 2. Case Study 2: Accelerated A/B Testing and Automation for JustPlay - [ab](https://github.com/aapiskotin/just_play_case/tree/main/ab)
 
-# How to Run
+## Important Notes
+
+The assumptions made during the research are base on the provided data and my
+humble experience of solving the problems of similar nature. Given the specifics of
+every business and the audiences the business serves, the assumptions and solutions
+might not be directly applicable to the JustPlay case. However, my purpose here
+is to solve the problems as it was presented in the transparent way, so that the
+framework of solving ML problems could be understood and applied to the real-world 
+cases.
+
+## How to Run
 
 1. Clone the repo
 2. Create a virtual environment

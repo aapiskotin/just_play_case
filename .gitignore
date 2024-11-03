@@ -1,3 +1,6 @@
 .idea
 .venv
 TODO.md
+wandb
+__pycache__
+data
