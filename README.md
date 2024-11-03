@@ -4,8 +4,8 @@ The repo consists of the research artifacts for the JustPlay case.
 
 More details about the findings and solutions can be found under the corresponding directories:
 
-1. Case Study 1: Predicting Lifetime Value (LTV) for JustPlay Users - [pltv](www.github.com)
-2. Case Study 2: Accelerated A/B Testing and Automation for JustPlay - [ab](www.github.com)
+1. Case Study 1: Predicting Lifetime Value (LTV) for JustPlay Users - [pltv](https://github.com/aapiskotin/just_play_case/tree/main/pltv)
+2. Case Study 2: Accelerated A/B Testing and Automation for JustPlay - [ab](https://github.com/aapiskotin/just_play_case/tree/main/ab)
 
 # How to Run
 
