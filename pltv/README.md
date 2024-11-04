@@ -1,6 +1,6 @@
 # Case Study 1: Predicting Lifetime Value (LTV) for JustPlay Users
 
-## 0. Preliminary Analysis Results ([0_EDA.ipynb](0_EDA.ipynb))
+## 0. Preliminary Analysis Results ([0_EDA.ipynb](src/0_EDA.ipynb))
 
 The preliminary analysis of the provided dataset showed a highly synthetic nature
 of the data:
@@ -76,12 +76,12 @@ is high and some of them seems to be prone to the `leaking` of the target inform
     The Framework gives us an opportunity to iterate over various hypothesis
     and models in consistent way.
    - The `Validator` class and the `Model` interface are presented in the
-     [validate.py](validate.py) file.
+     [validate.py](src/validate.py) file.
    - The experiments tracked via Weight & Biases are presented 
    [here](https://wandb.ai/justplay-case/justplay-pltv/table?nw=nwuseraapiskotinge)
      (copy in Google Sheets [here](https://docs.google.com/spreadsheets/d/1stcLaI7b4AUn29uSwcLOW7-keo_Z7yC01tK_GUFzu8M/edit?usp=sharing))
 2. The best model iteration is Classification Model with interploation via probabilities.
-   - The experimentation results are presented in the [2_clf_model.ipynb](2_clf_model.ipynb) notebook.
+   - The experimentation results are presented in the [2_clf_model.ipynb](src/2_clf_model.ipynb) notebook.
    - The model shows good results on the given dataset, though some steps can be done to
      improve the accuracy and robustness of the model.
    - The interpretation of the model follows common sense (Details are presented in the notebook).
