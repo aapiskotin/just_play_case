@@ -23,7 +23,7 @@ a lot of time and access to huge amounts of real historical data.
 
 It seems to me that the dynamic user allocation is very task specific part of the A/B
 testing system. Which is why in the situation of limited time, there is only general
-solution presented in [mab.py](mab.py) file. 
+solution presented in [mab.py](src/mab.py) file. 
 
 The solution is a plain usage of the
 Multi-Armed Bandit algorithm with the Thompson Sampling strategy (which is known to
@@ -48,8 +48,8 @@ Given the dataset, the testing framework consists of the following steps:
    drawn in each group. The smaller sample size must be drawn for the test to be significant
    the better.
 
-### The Results [1_test.ipynb](1_test.ipynb)
-0. The [Testing Framework](validate.py) is implemented which allows further testing
+### The Results [1_test.ipynb](src/1_test.ipynb)
+0. The [Testing Framework](src/validate.py) is implemented which allows further testing
     of various statistical criteria to be applied to the real-world data.
 1. The following statistical tests were tested:
     - Student's T-Test
@@ -67,7 +67,7 @@ Given the dataset, the testing framework consists of the following steps:
     T-Test and U-Test. It seems that the reason of such behavior is the 
     synthetic nature of the dataset - the conversion rates through the strata
     are mostly the same, which makes the stratification useless.
-5. The Stratified T-Test criterion is [packed]((stat_test.py)) into the interface 
+5. The Stratified T-Test criterion is [packed](src/stat_test.py) into the interface 
    with two basic methods - `get_sample_size` and `get_pvalue`
 
 ### Future Steps
